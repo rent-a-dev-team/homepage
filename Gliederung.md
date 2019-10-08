@@ -30,7 +30,7 @@ Ihre Digitale Transformation hakt, weil die Fachbereiche nicht mit der Entwicklu
 # Über Uns
 
 Markus Jenderek, "Schlechte Software macht mich krank"
-Sandra Parsick, ""
+Sandra Parsick, "Einfach mal machen"
 Nils Bokermann, "Architektur ist nicht skalierbar"
 
 # Abgedecktes Spektrum

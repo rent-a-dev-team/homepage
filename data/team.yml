@@ -1,59 +1,45 @@
 enable : true
-heading : Our
+heading : Das
 headingSpan : Team
 teamMember :
-  - image : images/team/team-1.jpg
-    name : Abul Mal Muhit
-    designation : CEO/Founder
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+  - image : images/team/sandra.jpg
+    name : Sandra Parsick
+    designation : Backend Entwicklung und Build-Automatisierung
+    description : "Einfach mal machen!"
     socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "#"
+      # - icon : tf-ion-social-facebook
+      #   url : "#"
       - icon : tf-ion-social-twitter
         url : "#"
       - icon : tf-ion-social-linkedin
         url : "#"
-      - icon : tf-ion-social-dribbble-outline
+      - icon : tf-ion-social-xing
         url : "#"
-      
-  - image : images/team/team-2.jpg
-    name : Frank Miller
-    designation : Manager
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+
+  - image : images/team/markus.jpg
+    name : Markus Jenderek
+    designation : Quality Assurance
+    description : "Schlechte Software macht mich krank"
     socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "#"
+      # - icon : tf-ion-social-facebook
+      #   url : "#"
       - icon : tf-ion-social-twitter
         url : "#"
       - icon : tf-ion-social-linkedin
         url : "#"
-      - icon : tf-ion-social-dribbble-outline
+      - icon : tf-ion-social-xing
         url : "#"
-      
-  - image : images/team/team-3.jpg
-    name : Michael Jonson
-    designation : Web Developer
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+
+  - image : images/team/nils.jpg
+    name : Nils Bokermann
+    designation : Architektur und Fullstack Entwicklung
+    description : "Architektur ist nicht skalierbar"
     socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "#"
+      # - icon : tf-ion-social-facebook
+      #   url : "#"
       - icon : tf-ion-social-twitter
         url : "#"
       - icon : tf-ion-social-linkedin
         url : "#"
-      - icon : tf-ion-social-dribbble-outline
-        url : "#"
-      
-  - image : images/team/team-4.jpg
-    name : Mo. Kha. Alamgir
-    designation : SEO Specialist
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "#"
-      - icon : tf-ion-social-twitter
-        url : "#"
-      - icon : tf-ion-social-linkedin
-        url : "#"
-      - icon : tf-ion-social-dribbble-outline
+      - icon : tf-ion-social-xing
         url : "#"
