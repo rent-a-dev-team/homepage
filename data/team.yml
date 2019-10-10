@@ -4,7 +4,7 @@ headingSpan : Team
 teamMember :
   - image : images/team/sandra.jpg
     name : Sandra Parsick
-    designation : Backend Entwicklung und Build-Automatisierung
+    designation : Architektur, Backend Entwicklung und Continuous Delivery
     description : "Einfach mal machen!"
     socialIcon :
       # - icon : tf-ion-social-facebook
@@ -18,7 +18,7 @@ teamMember :
 
   - image : images/team/markus.jpg
     name : Markus Jenderek
-    designation : Quality Assurance
+    designation : Quality Assurance und Testautomatisierung
     description : "Schlechte Software macht mich krank"
     socialIcon :
       # - icon : tf-ion-social-facebook
@@ -32,7 +32,7 @@ teamMember :
 
   - image : images/team/nils.jpg
     name : Nils Bokermann
-    designation : Architektur und Fullstack Entwicklung
+    designation : Requirement Engineering, Architektur und Fullstack Entwicklung
     description : "Architektur ist nicht skalierbar"
     socialIcon :
       # - icon : tf-ion-social-facebook
