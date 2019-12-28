@@ -1,2 +1,4 @@
 resources/
 public/
+.idea/
+*.iml

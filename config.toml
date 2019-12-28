@@ -1,5 +1,5 @@
 baseURL = "https://www.rent-a-dev-team.de/"
-languageCode = "en-us"
+languageCode = "de_DE"
 DefaultContentLanguage = "de"
 title = "Meghna"
 theme = "meghna-hugo"
@@ -13,13 +13,13 @@ summaryLength = 10
 # Menu
 [menu]
     [[menu.nav]]
-    name = "About Us"
-    URL = "about"
+    name = "Service"
+    URL = "services"
     weight = 2
 
     [[menu.nav]]
-    name = "Service"
-    URL = "services"
+    name = "Team"
+    URL = "our-team"
     weight = 3
 
     [[menu.nav]]
@@ -28,24 +28,14 @@ summaryLength = 10
     weight = 4
 
     [[menu.nav]]
-    name = "Team"
-    URL = "our-team"
+    name = "About Us"
+    URL = "about"
     weight = 5
-
-    [[menu.nav]]
-    name = "Pricing"
-    URL = "pricing"
-    weight = 6
-
-    [[menu.nav]]
-    name = "Blog"
-    URL = "blog"
-    weight = 7
 
     [[menu.nav]]
     name = "Contact"
     URL = "contact-us"
-    weight = 8
+    weight = 6
 
 # Site params
 [params]
@@ -59,16 +49,16 @@ author = "Themefisher"
 googleAnalitycsID = "Your ID"
 custom_css = ["css/custom.css"]
 
-    # # Banner Section
-    # [params.banner]
-    # enable = true
-    # bgImage = "images/slider/hero-area.jpg"
-    # icon = "tf-ion-play"
-    # heading = "Experience the new reality"
-    # content= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
-    # btn = true
-    # btnText="Explore Us"
-    # btnURL="#services"
+# Banner Section
+[params.banner]
+enable = true
+bgImage = "images/slider/hero-area.jpg"
+icon = "tf-ion-play"
+heading = "Kennen Sie das?"
+content= "Ihre Digitale Transformation hakt, weil die Fachbereiche nicht mit der Entwicklung klar kommen? Es exisitiert ein babylonisches Sprachgewirr?"
+btn = true
+btnText="Hier ist die Lösung"
+btnURL="#services"
     #
     # # call to action
     # [params.cta]
