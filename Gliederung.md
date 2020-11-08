@@ -6,6 +6,7 @@ Ihre Digitale Transformation hakt, weil die Fachbereiche nicht mit der Entwicklu
 # Unsere Lösung
 
 * Wir sind ein eingespieltes Team, dass den ganzen Bereich der Software-Entwicklung abdeckt.
+* Wir sind 3 Freelancer die das gleiche Verständnis von "Richtig-machen" teilen. (MJ)
 * Von der Aufnahme der Anforderung bis in die Produktion können wir Ihre Software bringen.
 * Digitale Transformation, Werkzeugkasten für Ihre Software-Entwicklung, Von der Anforderung in die Produktion.
 * Gemeinsames Verständnis der Anforderungen der verschiedenen Bereiche der Software-Entwicklung.
