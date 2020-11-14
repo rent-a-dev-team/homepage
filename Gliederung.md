@@ -1,4 +1,4 @@
-# Kommt ihnen das bekannt vor?
+# Kommt Ihnen das bekannt vor?
 
 Ihre Digitale Transformation hakt, weil die Fachbereiche nicht mit der Entwicklung klar kommt?
 Sie möchten das Teamstuffing überspringen und sofort mit einem Team starten das funktioniert. (MJ)
