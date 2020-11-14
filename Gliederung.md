@@ -19,12 +19,14 @@ Sie möchten das Teamstuffing überspringen und sofort mit einem Team starten da
 * Transparenz über den Status
   - Jederzeit Einblick in die Entwicklung
   - In kurzer Kadenz Vorstellung der Arbeit
+  - Agiles Theater kompatible (MJ)
 * Transparenz über unsere Entscheidungen
   - Dokumentierte Entscheidung mit Pro und Contra
 * CI/CD Know-How ** WERT **
 * Frühe Integration und Test
 * Einbindung des Kunden von Anfang an
   - Der Kunde steht im Fokus
+
 
 
 => Link auf Architektur-Spicker?
