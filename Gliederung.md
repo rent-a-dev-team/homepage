@@ -4,6 +4,8 @@ Ihre Digitale Transformation hakt, weil die Fachbereiche nicht mit der Entwicklu
 Sie möchten das Teamstuffing überspringen und sofort mit einem Team starten das funktioniert. (MJ)
 
 
+
+
 # Unsere Lösung
 
 * Wir sind ein eingespieltes Team, dass den ganzen Bereich der Software-Entwicklung abdeckt.
@@ -34,7 +36,7 @@ Sie möchten das Teamstuffing überspringen und sofort mit einem Team starten da
 # Über Uns
 
 Markus Jenderek, "Schlechte Software macht mich krank"
-Sandra Parsick, ""
+Sandra Parsick, "Einfach mal machen"
 Nils Bokermann, "Architektur ist nicht skalierbar"
 
 # Abgedecktes Spektrum

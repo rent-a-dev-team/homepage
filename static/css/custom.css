@@ -1,1 +1,10 @@
+/*
+TODO: Insert proper xing logo
+*/
+.tf-ion-social-xing:before{
+  content: "x"
+}
 
+.tf-ion-social-xing-outline:before{
+  content: "X"
+}

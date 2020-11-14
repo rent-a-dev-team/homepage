@@ -6,6 +6,7 @@ tags = ["golang", "programming", "theme", "hugo"]
 categories = ["starting"]
 author = "Themefisher"
 image = "images/blog/meghna.png"
+draft = true
 +++
 
 ## Install this template by following those simple steps:
