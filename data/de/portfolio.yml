@@ -1,0 +1,52 @@
+portfolio:
+  enable: true
+  title: Portfolio
+  filter_List:
+    - filter_Type: agility
+      filter_Title: Agility
+
+    # TODO: Architektur?
+    #  - filterType : design
+    #    filterTitle : Design
+
+    - filter_Type: development
+      filter_Title: Development
+
+    - filter_Type: re
+      filter_Title: Requirement Engineering
+
+  portfolio_Item:
+    - types: [ "agility", "re" ]
+      image: images/portfolio/portfolio-1.jpg
+      icon: tf-ion-android-search
+      URL: #
+      title: Product Owner
+      description: Bieten Product Owner ... Lorem Ipsum
+
+    - types: [ "development" ]
+      image: images/portfolio/portfolio-2.jpg
+      icon: tf-ion-android-search
+      URL: #
+      title: Java Entwicklung
+      description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+
+    - types: [ "development" ]
+      image: images/portfolio/portfolio-2.jpg
+      icon: tf-ion-android-search
+      URL: #
+      title: Vue.js Entwicklung
+      description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+
+    #  - types : development
+    #    image : images/portfolio/portfolio-2.jpg
+    #    icon : tf-ion-android-search
+    #    URL : #
+    #    title : Angular Entwicklung
+    #    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+
+    - types: [ "re" ]
+      image: images/portfolio/portfolio-3.jpg
+      icon: tf-ion-android-search
+      URL: #
+      title: Certified Professional for Requirements Engineering
+      description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
