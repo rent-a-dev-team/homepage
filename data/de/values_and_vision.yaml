@@ -1,0 +1,16 @@
+values_and_vision:
+  enable: true
+  title: Werte und Visionen
+  values_and_vision_Item:
+    - title: Einbindung des Kunden von Anfang an
+    - title: Transparenz über unsere Entscheidungen
+      content: |
+        - Dokumentierte Entscheidung mit Pro und Contra
+    - title:  Wahl der Technologien nicht nach Hypefaktor, sondern nach Problemadäquatheit und passend zum Kunden.
+    - title: Transparenz über den Status
+      content: |
+        - jederzeit Einblick in die Entwicklung
+        - in kurzer Kadenz Vorstellung der Arbeit
+        - unterstützt durch agile Methoden
+    - title: Frühe Integration und Test
+    - title: Automatisierung bis zur Produktion
