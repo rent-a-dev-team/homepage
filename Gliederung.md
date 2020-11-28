@@ -1,53 +1,47 @@
 # Kommt Ihnen das bekannt vor?
-
-Ihre Digitale Transformation hakt, weil die Fachbereiche nicht mit der Entwicklung klar kommt?
-Sie möchten das Teamstuffing überspringen und sofort mit einem Team starten das funktioniert. (MJ)
-
-
-
+* Die richtigen Leute für das Vorhaben zu finden ist aufwendig und teuer.
+  - Themenkomplex: Suche, Interview und Auswahlprozess sind aufwendig
+  - Teamfindungsphase kostet viel Zeit, weil die Leute zusammenwachsen müssen. Diese Investition ist nicht nachhaltig, da in der Regel das Team nach dem Projekt wieder aufgelöst geht.
+  - Diskrepanz zwischen CV und täglichem Doing  ????
+* Sie möchten das Team-Staffing überspringen und sofort mit einem Team starten das funktioniert.
+* Fachbereich hat viele Ideen, aber die Entwicklungsabteilung hat zu wenig Kapazitäten für die Umsetzung
+* Fachbereich und Entwicklungsbereich sprechen nicht die selbe Sprache ???
 
 # Unsere Lösung
+* Wir sind eingespieltes Team von drei Freiberuflern, die das gleiche Verständnis von "Richtig-machen" teilen.
+* Wir sind eingespieltes Team, dass den ganzen Bereich der Softwareprodukt-Entwicklung abdeckt.
+* Wir sind eingespieltes Team und haben die Teamfindungsphase schon lange abgeschlossen.
+* Wir haben ein gemeinsames Verständnis der Anforderungen an die verschiedenen Phasen der Softwareprodukt-Entwicklung.
+* Wir definieren uns nicht nur über die Technik, sondern wir wissen das darüber hinaus noch andere Bereiche für den Erfolg relevant sind.
+* Wir bringen Ihre Software von der Aufnahme der Anforderung bis in die Produktion.
+* Wir bieten Ihnen eine großen Werkzeugkasten für Ihre Softwareprodukt-Entwicklung.
 
-* Wir sind ein eingespieltes Team, dass den ganzen Bereich der Software-Entwicklung abdeckt.
-* Wir sind 3 Freelancer die das gleiche Verständnis von "Richtig-machen" teilen. (MJ)
-* Von der Aufnahme der Anforderung bis in die Produktion können wir Ihre Software bringen.
-* Digitale Transformation, Werkzeugkasten für Ihre Software-Entwicklung, Von der Anforderung in die Produktion.
-* Gemeinsames Verständnis der Anforderungen der verschiedenen Bereiche der Software-Entwicklung.
-* Gemeinsame Vision über den idealen Software-Entwicklungsprozess.
-* Eingespieltes Team mindert die Reibungsverluste.
 
-# Unsere Werte/Vision
-
-* Transparenz über den Status
-  - Jederzeit Einblick in die Entwicklung
-  - In kurzer Kadenz Vorstellung der Arbeit
-  - Agiles Theater kompatible (MJ)
+# Unsere Werte und Visionen
+* Einbindung des Kunden von Anfang an
 * Transparenz über unsere Entscheidungen
   - Dokumentierte Entscheidung mit Pro und Contra
-* CI/CD Know-How ** WERT **
+* Wahl der Technologien nicht nach Hypefaktor, sondern nach Problemadäquatheit und passend zum Kunden.
+* Transparenz über den Status
+  - jederzeit Einblick in die Entwicklung
+  - in kurzer Kadenz Vorstellung der Arbeit
+  - unterstützt durch agile Methoden
 * Frühe Integration und Test
-* Einbindung des Kunden von Anfang an
-  - Der Kunde steht im Fokus
+* Automatisierung bis zur Produktion
 
-
-
-=> Link auf Architektur-Spicker?
-
-# Über Uns
-
-Markus Jenderek, "Schlechte Software macht mich krank"
-Sandra Parsick, "Einfach mal machen"
-Nils Bokermann, "Architektur ist nicht skalierbar"
-
-# Abgedecktes Spektrum
-
-* Java Backend Entwicklung
-* Architektur
+# Was wir anbieten
 * Requirements Engineering
 * Quality Assurance
-* Lifecycle Testing
-* Living Documentation
-* Web-Technologien
-* CI/CD
 * Jederzeit produktionsbereite Software
 * Application Monitoring
+* Architektur
+* Continuous Integration / Continuous Deliviery
+* Testautomatisierung passend zum Application Lifecycle
+* Living Documentation
+* Java Backend Entwicklung
+* Web-Technologien
+
+# Über Uns
+Sandra Parsick, "Machen ist wie wollen, nur krasser"
+Nils Bokermann, "Architektur ist nicht skalierbar"
+Markus Jenderek, "Schlechte Software macht mich krank"
