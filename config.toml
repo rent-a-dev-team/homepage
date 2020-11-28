@@ -53,12 +53,12 @@ URL = "plugins/wow/wow.min.js"
   [[menu.main]]
   name = "Ihr Problem"
   URL = "situation"
-  weight = 2
+  weight = 1
 
   [[menu.main]]
-  name = "Team"
-  URL = "team"
-  weight = 3
+  name = "Lösung"
+  URL = "solution"
+  weight = 2
 
   [[menu.main]]
   name = "Portfolio"
@@ -89,8 +89,8 @@ postShare = true
 
 # preloader
 [params.preloader]
-enable = true
-preloader = "images/logo.png"
+enable = false
+preloader = "images/preload.jpg"
 
 ############################# social icons ##########################
 [[params.social_Icon]]
@@ -126,4 +126,4 @@ link = "#"
   languageCode = "de-de"
   contentDir = "content/"
   weight = 1
-  home = "Home"
+  home = ""
