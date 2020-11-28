@@ -61,19 +61,19 @@ URL = "plugins/wow/wow.min.js"
   weight = 2
 
   [[menu.main]]
+  name = "Werte"
+  URL = "values-and-vision"
+  weight = 3
+
+  [[menu.main]]
   name = "Portfolio"
   URL = "portfolio"
   weight = 4
 
   [[menu.main]]
-  name = "About Us"
-  URL = "about"
-  weight = 5
-
-  [[menu.main]]
   name = "Contact"
   URL = "contact-us"
-  weight = 6
+  weight = 5
 
 
 ############################# Default Parameters ##########################
