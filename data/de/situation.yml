@@ -1,0 +1,21 @@
+situation:
+  enable: true
+  title: Kommt Ihnen das bekannt vor?
+  situation_Item:
+    - title: "Die richtigen Leute für das Vorhaben zu finden ist aufwendig und teuer."
+      icon: ti-eye
+      content: |
+        * Suche, Interview und Auswahlprozess sind aufwendig
+        * Teamfindungsphase kostet viel Zeit, weil die Leute zusammenwachsen müssen.
+
+          Diese Investition ist nicht nachhaltig, da in der Regel das Team nach dem Projekt wieder aufgelöst geht.
+        * Diskrepanz zwischen CV und täglichem Doing  ????"
+    - title: "Sie möchten das Team-Staffing überspringen und sofort mit einem Team starten das funktioniert."
+      icon: ti-user
+      content: "Empty"
+    - title: "Fachbereich hat viele Ideen, aber die Entwicklungsabteilung hat zu wenig Kapazitäten für die Umsetzung"
+      icon: ti-light-bulb
+      content: "Empty"
+    - title: "Fachbereich und Entwicklungsbereich sprechen nicht die selbe Sprache ???"
+      icon: ti-headphone
+      content: "Empty"
