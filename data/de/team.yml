@@ -10,7 +10,7 @@ team:
       social_Icon:
         # - icon : tf-ion-social-facebook
         #   link : "#"
-        - icon: logo-xing
+        - icon: ti-xing
           link: "https://www.xing.com/profile/Sandra_Parsick/cv"
         - icon: ti-linkedin
           link: "https://www.linkedin.com/in/sandra-parsick-589a6b20/"
@@ -27,7 +27,7 @@ team:
       social_Icon:
         # - icon : tf-ion-social-facebook
         #   link : "#"
-        - icon: logo-xing
+        - icon: ti-xing
           link: "https://www.xing.com/profile/Nils_Bokermann/cv"
         - icon: ti-linkedin
           link: "https://www.linkedin.com/in/nils-bokermann-3267826/"
@@ -44,7 +44,7 @@ team:
       social_Icon:
         # - icon : tf-ion-social-facebook
         #   link : "#"
-        - icon: logo-xing
+        - icon: ti-xing
           link: "https://www.xing.com/profile/Markus_Jenderek/cv"
         - icon: ti-linkedin
           link: "https://www.linkedin.com/in/markus-jenderek-a52a8a70/"

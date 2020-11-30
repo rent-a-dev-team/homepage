@@ -26,7 +26,7 @@ URL = "plugins/animate-css/animate.css"
 URL = "plugins/magnific-popup/magnific-popup.css"
 [[params.plugins.css]]
 URL = "plugins/slick/slick.css"
-[[params.pugins.css]]
+[[params.plugins.css]]
 URL = "css/custom.css"
 
 # js plugins
