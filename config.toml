@@ -1,7 +1,7 @@
 baseURL = "https://www.rent-a-dev-team.de/"
 languageCode = "de_DE"
 title = "Meghna"
-theme = "meghna-hugo"
+# theme = "meghna-hugo"
 # post pagination
 paginate = "6"
 # post excerpt

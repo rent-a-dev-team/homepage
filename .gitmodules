@@ -1,4 +1,0 @@
-[submodule "themes/meghna-hugo"]
-	path = themes/meghna-hugo
-	url = git@github.com:sanddorn/meghna-hugo.git
-	branch = customize
