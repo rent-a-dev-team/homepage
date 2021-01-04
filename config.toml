@@ -42,6 +42,8 @@ URL = "plugins/shuffle/shuffle.min.js"
 URL = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 [[params.plugins.js]]
 URL = "plugins/wow/wow.min.js"
+[[params.plugins.js]]
+URL = "plugins/jquery-ui/jquery-ui.min.js"
 
 [taxonomies]
   author = "author"

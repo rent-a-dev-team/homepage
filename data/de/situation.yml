@@ -12,10 +12,10 @@ situation:
         * Diskrepanz zwischen CV und täglichem Doing  ????"
     - title: "Sie möchten das Team-Staffing überspringen und sofort mit einem Team starten das funktioniert."
       icon: ti-user
-      content: "Empty"
+      content: ""
     - title: "Fachbereich hat viele Ideen, aber die Entwicklungsabteilung hat zu wenig Kapazitäten für die Umsetzung"
       icon: ti-light-bulb
-      content: "Empty"
-    - title: "Fachbereich und Entwicklungsbereich sprechen nicht die selbe Sprache ???"
+      content: ""
+    - title: "Fachbereich und Entwicklungsbereich sprechen nicht die selbe Sprache?"
       icon: ti-headphone
-      content: "Empty"
+      content: ""

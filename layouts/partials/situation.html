@@ -11,10 +11,10 @@
 				<div class="title text-center wow" data-wow-duration="1500ms">
 					<h2> {{ with .title }} {{ index (split . " ") 0 }} {{ end }}<span class="color">
 							{{ with .title }} {{ replace . (index (split . " ") 0) "" }} {{ end }} </span></h2>
-					<div class="border-meghna"></div>
-				</div>
-			</div>
-			{{"<!-- /section title -->" | safeHTML}}
+                    <div class="border-meghna"></div>
+                </div>
+            </div>
+            {{"<!-- /section title --> " | safeHTML}}
 
 			{{ range .situation_Item }}
 			{{"<!-- About item -->" | safeHTML}}
@@ -25,8 +25,10 @@
 					</div>
 					{{"<!-- Express About Yourself -->" | safeHTML}}
 					<div class="content text-left">
-						<h3 class="ddd">{{ .title }}</h3>
-						<p>{{ .content | markdownify }}</p>
+						<h3>{{ .title }}</h3>
+						<div class="overflow-box hidden">...</div>
+						<div class="content-box">{{ .content | markdownify }}</div>
+						<div class="dialog">{{ .content | markdownify }}</div>
 					</div>
 				</div>
 			</div>

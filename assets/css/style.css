@@ -635,6 +635,10 @@ a:hover {
     color: #afbac4;
 }
 
+.block {
+    height: 25em;
+    overflow: hidden;
+}
 /*=================================================================
   About us 2 section
 ==================================================================*/
@@ -2263,5 +2267,13 @@ figcaption {
     display: block;
 }
 
+.no-close .ui-dialog-titlebar-close {
+    display: none;
+}
 
+.overflow-dialog {
+    background: #242930;
+/*    border: inset #57cbcc; */
+    box-shadow: 2px 2px 5px #57cbcc,5px 5px #57cbcc
+}
 /*# sourceMappingURL=maps/style.css.map */
