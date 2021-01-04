@@ -13,10 +13,19 @@
 					</ul>
 				</div>
 
+				{{"<!-- Footer Other Links -->" | safeHTML}}
+				<div class="footer-link">
+					<ul class="list-inline">
+						{{ range .Site.Params.link_Footer }}
+						<li class="list-inline-item"><a href="{{ .link | safeURL }}">{{ .text }}</a></li>
+						{{ end }}
+					</ul>
+				</div>
+
 				{{"<!-- copyright -->" | safeHTML}}
 				<div class="copyright text-center">
 					<a href="{{ .Site.BaseURL | absURL }}">
-						<img src="{{ .Site.Params.logo | absURL }}" alt="Meghna" />
+						<img src="{{ .Site.Params.logo | absURL }}" alt="rent-a-dev-team" />
 					</a>
 					<br>
 					<p>{{ i18n "copyright" | markdownify }}</p>

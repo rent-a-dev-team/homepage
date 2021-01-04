@@ -73,8 +73,8 @@ URL = "plugins/jquery-ui/jquery-ui.min.js"
   weight = 4
 
   [[menu.main]]
-  name = "Contact"
-  URL = "contact-us"
+  name = "Team"
+  URL = "team"
   weight = 5
 
 
@@ -95,29 +95,33 @@ enable = false
 preloader = "images/preload.jpg"
 
 ############################# social icons ##########################
-[[params.social_Icon]]
-icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+#[[params.social_Icon]]
+#icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+#link = "#"
 
-[[params.social_Icon]]
-icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+#[[params.social_Icon]]
+#icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+#link = "#"
 
-[[params.social_Icon]]
-icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+#[[params.social_Icon]]
+#icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
+#link = "#"
 
-[[params.social_Icon]]
-icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+#[[params.social_Icon]]
+#icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+#link = "#"
 
-[[params.social_Icon]]
-icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+#[[params.social_Icon]]
+#icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
+#link = "#"
 
 [[params.social_Icon]]
 icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
 link = "#"
+
+[[params.link_Footer]]
+link = "impressum"
+text = "Impressum"
 
 ################################# language ################################
 [Languages]

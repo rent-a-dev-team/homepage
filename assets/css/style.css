@@ -918,6 +918,9 @@ a:hover {
     border-top: 1px solid rgba(236, 239, 241, 0.07);
     margin-bottom: 40px;
     box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(150, 180, 255, 0.7);
+    height: 20em;
+    overflow: hidden;
+    background: #242930;
 }
 
 .values-and-vision-block .values-and-vision-icon {
@@ -934,6 +937,9 @@ a:hover {
     border-top: 1px solid rgba(236, 239, 241, 0.07);
     margin-bottom: 40px;
     box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(150, 180, 255, 0.7);
+    height: 20em;
+    overflow: hidden;
+    background: #242930;
 }
 
 .portfolio-block .portfolio-icon {
@@ -1527,6 +1533,44 @@ input#e-mail,
 }
 
 .social-icon ul li a i {
+    color: #55606a;
+    display: inline-block;
+    font-size: 32px;
+    line-height: 70px;
+    margin: 0;
+    opacity: 0.3;
+    transition: all 400ms ease-out 0s;
+}
+
+.footer-link {
+    padding: 60px 0 35px;
+}
+
+.footer-link ul {
+    text-align: center;
+}
+
+.footer-link ul li {
+    margin-bottom: 4px;
+}
+
+.footer-link ul li a {
+    background-color: #26292e;
+    border: 1px solid transparent;
+    display: block;
+    transition: all 400ms ease-out 0s;
+}
+
+.footer-link ul li a:hover {
+    background: #57cbcc;
+}
+
+.footer-link ul li a:hover i {
+    color: #fff;
+    opacity: 1;
+}
+
+.footer-link ul li a i {
     color: #55606a;
     display: inline-block;
     font-size: 32px;

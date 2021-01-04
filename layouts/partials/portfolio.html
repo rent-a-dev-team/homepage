@@ -3,7 +3,6 @@
 {{ if $data.portfolio.portfolio.enable}}
 {{ with $data.portfolio.portfolio}}
 {{"<!-- portfolio -->" | safeHTML }}
-foobar
 <section id="portfolio" class="bg-one section">
     <div class="container">
         <div class="row">
@@ -20,7 +19,7 @@ foobar
             {{ range .portfolio_Item}}
             {{"<!-- Single portfolio Item --> " | safeHTML }}
             <article class="col-lg-4 col-md-6 col-12  wow fadeInUp" data-wow-duration="500ms">
-                <div class="portfolio-block text-left equal" size="100%">
+                <div class="portfolio-block text-left" size="100%">
                         <div class="portfolio-icon text-center">
                             {{ "<!-- foo -->" | safeHTML }}
                             <i class="{{ .icon }}"></i>
