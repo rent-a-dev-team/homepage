@@ -1,0 +1,39 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ if $data.situation.situation.enable }}
+{{ with $data.situation.situation }}
+{{"<!-- Start About Section -->" | safeHTML}}
+<section class="bg-one about section" id="situation">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				{{"<!-- section title -->" | safeHTML}}
+				<div class="title text-center wow" data-wow-duration="1500ms">
+					<h2> {{ with .title }} {{ index (split . " ") 0 }} {{ end }}<span class="color">
+							{{ with .title }} {{ replace . (index (split . " ") 0) "" }} {{ end }} </span></h2>
+					<div class="border-meghna"></div>
+				</div>
+			</div>
+			{{"<!-- /section title -->" | safeHTML}}
+
+			{{ range .situation_Item }}
+			{{"<!-- About item -->" | safeHTML}}
+			<div class="col-lg-6 text-center wow" data-wow-duration="500ms">
+				<div class="block">
+					<div class="icon-box">
+						{{with .icon}}<i class="{{ . }}"></i>{{ end }}
+					</div>
+					{{"<!-- Express About Yourself -->" | safeHTML}}
+					<div class="content text-left">
+						<h3 class="ddd">{{ .title }}</h3>
+						<p>{{ .content | markdownify }}</p>
+					</div>
+				</div>
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</section>
+{{"<!-- /about -->" | safeHTML}}
+{{ end }}
+{{ end }}

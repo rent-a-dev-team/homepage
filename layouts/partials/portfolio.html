@@ -1,58 +1,39 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
-{{ if $data.portfolio.portfolio.enable }}
-{{ with $data.portfolio.portfolio }}
-{{"<!-- Portfolio Section -->" | safeHTML}}
-<section class="portfolio section" id="portfolio">
-	<div class="container">
-		<div class="row ">
-			<div class="col-xl-12">
-				{{"<!-- section title -->" | safeHTML}}
-				<div class="title text-center">
-					<h2>{{ with .title }} {{ index (split . " ") 0 }} {{ end }}<span class="color">
-							{{ with .title }} {{ index (split . " ") 1 }} {{ end }}</span></h2>
-					<div class="border-meghna"></div>
-				</div>
-				{{"<!-- /section title -->" | safeHTML}}
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="btn-group portfolio-filter btn-group-toggle justify-content-center d-flex flex-wrap"
-					data-toggle="buttons">
-					<label class="btn active">
-						<input type="radio" name="shuffle-filter" value="all" checked="checked" />All
-					</label>
-					{{ range .filter_List }}
-					<label class="btn">
-						<input type="radio" name="shuffle-filter" value="{{.filter_Type}}" />{{ .filter_Title }}
-					</label>
-					{{ end }}
-				</div>
-			</div>
-		</div>
+{{ if $data.portfolio.portfolio.enable}}
+{{ with $data.portfolio.portfolio}}
+{{"<!-- portfolio -->" | safeHTML }}
+foobar
+<section id="portfolio" class="bg-one section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                {{"<!-- section title --> " | safeHTML }}
+                <div class="title text-center wow fadeIn" data-wow-duration="500ms">
+                    <h2>{{ with .title }} {{ index (split . " ") 0 }} {{ end }}<span class="color">
+							{{ with .title }} {{ replace . (index (split . " ") 0) "" }} {{ end }} </span></h2>
+                    <div class="border-meghna"></div>
+                </div>
+            </div>
+            {{"<!-- /section title --> " | safeHTML }}
 
-		<div class="row shuffle-wrapper">
-			{{"<!-- portfolio item -->" | safeHTML}}
-			{{ range .portfolio_Item }}
-			<div class="col-lg-4 shuffle-item"
-				data-groups="[{{range $index, $element:= .types }}{{if eq $index 0}} {{else}},{{end}}&quot;{{.}}&quot;{{ end }}]">
-				<div class="portfolio-block mb-4">
-					<img class="img-fluid" src="{{ .image | relURL }}" alt="work-image">
-					<div class="caption">
-						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="{{ .image | relURL }}"
-							data-lightbox="image-1">
-							<i class="ti-search"></i>
-						</a>
-						<h4 class="mt-3"><a href="{{ .URL | relURL }}">{{ .title }}</a></h4>
-						<p>{{ .content | markdownify }}</p>
-					</div>
-				</div>
-			</div>
-			{{ end }}
-		</div>
-	</div>
+            {{ range .portfolio_Item}}
+            {{"<!-- Single portfolio Item --> " | safeHTML }}
+            <article class="col-lg-4 col-md-6 col-12  wow fadeInUp" data-wow-duration="500ms">
+                <div class="portfolio-block text-left equal" size="100%">
+                        <div class="portfolio-icon text-center">
+                            {{ "<!-- foo -->" | safeHTML }}
+                            <i class="{{ .icon }}"></i>
+                        </div>
+                        <h3>{{ .title | markdownify }}</h3>
+                        <p>{{ .content | markdownify }}</p>
+                    </div>
+            </article>
+            {{"<!-- End Single portfolio Item --> " | safeHTML }}
+            {{ end }}
+        </div>
+    </div>
 </section>
-{{"<!-- /Portfolio -->" | safeHTML}}
+{{"<!-- /portfolio -->" | safeHTML }}
 {{ end }}
 {{ end }}
