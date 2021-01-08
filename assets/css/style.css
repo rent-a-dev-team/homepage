@@ -639,6 +639,7 @@ a:hover {
     height: 25em;
     overflow: hidden;
 }
+
 /*=================================================================
   About us 2 section
 ==================================================================*/
@@ -1105,6 +1106,13 @@ a:hover {
 .member-meta span {
     font-size: 12px;
 }
+
+.site-notice-member {
+    background-color: #292F36;
+    padding: 10px;
+    height: 7em;
+}
+
 
 /*=================================================================
   Testimonial section
@@ -2321,7 +2329,11 @@ figcaption {
 
 .overflow-dialog {
     background: #242930;
-/*    border: inset #57cbcc; */
-    box-shadow: 2px 2px 5px #57cbcc,5px 5px #57cbcc
+    box-shadow: 2px 2px 5px #57cbcc, 5px 5px #57cbcc
 }
+
+.dialog-titlebar-invisible {
+    display: none;
+}
+
 /*# sourceMappingURL=maps/style.css.map */

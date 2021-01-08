@@ -115,12 +115,12 @@ preloader = "images/preload.jpg"
 #icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
 #link = "#"
 
-[[params.social_Icon]]
-icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+#[[params.social_Icon]]
+#icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
+#link = "#"
 
 [[params.link_Footer]]
-link = "impressum"
+link = "impressum/impressum"
 text = "Impressum"
 
 ################################# language ################################

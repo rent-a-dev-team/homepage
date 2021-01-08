@@ -1,0 +1,42 @@
+{{ define "main" }}
+
+{{ partial "navigation.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ with $data.siteNotice.siteNotice }}
+{{ "<!-- siteNotice -->" | safeHTML }}
+<section class="section bg-one">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 text-center">
+                <h1>{{ .Title }}</h1>
+            </div>
+            <div class="col-lg-10 offset-lg-1">
+                <div class="post-single-content">
+                    <h3>{{ .Prefix | markdownify }}</h3>
+                </div>
+            </div>
+            {{ range .Member }}
+            <article class="col-lg-4 col-md-6 col-12">
+                <div class="site-notice-member">
+                    <h4>{{ .name }}</h4>
+                    {{ if .email }}
+                    <a href="mailto:{{ .email }}"><i class="ti-email"></i></a>
+                    {{ end }}
+                    {{ if .address }}
+                    <i class="ti-location-pin site-notice-location-pin"></i>
+                    <div class="site-notice-address">{{ .name}}<br>{{ .address }}<br>{{ .city }}</div>
+                    {{ end }}
+                </div>
+            </article>
+            {{ end }}
+            <div class="col-lg-10 offset-lg-1">
+                {{ .Postfix | markdownify}}
+            </div>
+        </div>
+        <!-- comments -->
+    </div>
+</section>
+{{ end }}
+{{ end }}

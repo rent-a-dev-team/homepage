@@ -269,7 +269,6 @@ jQuery(function ($) {
     $(function () {
         var blocks = $(".block")
         if (!blocks) {
-            console.log("element not found")
             return
         }
         blocks.each(function (index) {
@@ -300,7 +299,6 @@ jQuery(function ($) {
                     position: {my: "center", at: "center", of: element}
                 })
                 element.on("click", function () {
-                    console.log("box clicked")
 					if (tooltip.dialog("isOpen")) {
 						tooltip.dialog("close")
 					} else {
@@ -310,8 +308,52 @@ jQuery(function ($) {
                 tooltip.on("click", function () {
                     tooltip.dialog("close")
                 })
-
             }
         })
     })
-});
+
+    $(function () {
+        var blocks = $(".site-notice-member")
+        blocks.each(function (index) {
+            var element = $(this)
+            var trigger = element.find(".site-notice-location-pin")
+            var dialogContent = element.find(".site-notice-address")
+            dialogContent.dialog({
+                buttons: [],
+                modal: true,
+                closeText: "",
+                minHeight: "10em",
+                classes: {
+                    "ui-dialog": "overflow-dialog",
+                    "ui-dialog-titlebar": "ui-corner-all no-close dialog-titlebar-invisible",
+                },
+                draggable: false,
+                autoOpen: false,
+                show: {
+                    effect: "blind",
+                    duration: 1000
+                },
+                position: {my: "center", at: "center", of: element}
+            })
+            trigger.on("click", function (event) {
+                if (dialogContent.dialog("isOpen")) {
+                    dialogContent.dialog("close")
+                } else {
+                    dialogContent.dialog("open")
+                    event.stopPropagation()
+                    $(window).on("click", function () {
+                        dialogContent.dialog("close")
+                    })
+                }
+            })
+            dialogContent.on("click", function () {
+                dialogContent.dialog("close")
+            })
+            dialogContent.on("close", function (){
+                console.log("dialog close")
+                $(window).on("click", function () {
+                })
+            })
+        })
+    })
+})
