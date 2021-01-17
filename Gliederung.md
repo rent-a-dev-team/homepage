@@ -14,7 +14,7 @@
 * Wir haben ein gemeinsames Verständnis der Anforderungen an die verschiedenen Phasen der Softwareprodukt-Entwicklung.
 * Wir definieren uns nicht nur über die Technik, sondern wir wissen das darüber hinaus noch andere Bereiche für den Erfolg relevant sind.
 * Wir bringen Ihre Software von der Aufnahme der Anforderung bis in die Produktion.
-* Wir bieten Ihnen eine großen Werkzeugkasten für Ihre Softwareprodukt-Entwicklung.
+* Wir bieten Ihnen einen großen Werkzeugkasten für Ihre Softwareprodukt-Entwicklung.
 
 
 # Unsere Werte und Visionen
