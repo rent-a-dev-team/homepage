@@ -266,49 +266,60 @@ jQuery(function ($) {
 
     //google.maps.event.addDomListener(window, "load", initialize)
 
+    let openDialog;
+
     $(function () {
-        var blocks = $(".block")
+        let blocks = $(".content-block")
         if (!blocks) {
             return
         }
         blocks.each(function (index) {
             var element = $(this)
-            var contentBox = element.find(".content-box")
             var overfullBox = element.find(".overflow-box")
             var tooltip = element.find(".dialog")
-            contentBox.show()
-            overfullBox.hide()
-            if (element.innerHeight() < element[0].scrollHeight) {
-                element.addClass("overflow")
-                contentBox.hide()
-                overfullBox.show()
-                tooltip.dialog({
-                    buttons: [],
-                    modal: true,
-                    closeText: "",
-                    classes: {
-                        "ui-dialog": "overflow-dialog",
-                        "ui-dialog-titlebar": "ui-corner-all no-close",
-                    },
-                    draggable: false,
-                    autoOpen: false,
-                    show: {
-                        effect: "blind",
-                        duration: 1000
-                    },
-                    position: {my: "center", at: "center", of: element}
-                })
-                element.on("click", function () {
-					if (tooltip.dialog("isOpen")) {
-						tooltip.dialog("close")
-					} else {
-						tooltip.dialog("open")
-					}
-                })
-                tooltip.on("click", function () {
+            overfullBox.show()
+            element.addClass("overflow")
+            var dialogClass = element.attr("class").split(/\s+/).find(value => {
+                if (value !== "content-block" && value.endsWith("-block")) {
+                    return value
+                }
+            })
+            dialogClass = dialogClass.replace("-block", "-dialog")
+            console.log(dialogClass)
+            tooltip.dialog({
+                buttons: [],
+                modal: true,
+                closeText: "",
+                classes: {
+                    "ui-dialog": dialogClass,
+                    "ui-dialog-titlebar": "ui-corner-all no-close",
+                },
+                draggable: false,
+                autoOpen: false,
+                show: {
+                    effect: "blind",
+                    duration: 1000
+                },
+                position: {my: "center", at: "center", of: element}
+            })
+            element.on("click", function (event) {
+                if (openDialog) {
+                    openDialog.dialog("close")
+                }
+                if (tooltip.dialog("isOpen")) {
                     tooltip.dialog("close")
-                })
-            }
+                } else {
+                    tooltip.dialog("open")
+                    openDialog = tooltip
+                    event.stopPropagation()
+                    $(window).on("click", function () {
+                        tooltip.dialog("close")
+                    })
+                }
+            })
+            tooltip.on("click", function () {
+                tooltip.dialog("close")
+            })
         })
     })
 
@@ -349,7 +360,7 @@ jQuery(function ($) {
             dialogContent.on("click", function () {
                 dialogContent.dialog("close")
             })
-            dialogContent.on("close", function (){
+            dialogContent.on("close", function () {
                 console.log("dialog close")
                 $(window).on("click", function () {
                 })

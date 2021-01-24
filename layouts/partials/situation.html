@@ -19,7 +19,7 @@
 			{{ range .situation_Item }}
 			{{"<!-- About item -->" | safeHTML}}
 			<div class="col-lg-6 text-center wow" data-wow-duration="500ms">
-				<div class="block">
+				<div class="block content-block situation-block">
 					<div class="icon-box">
 						{{with .icon}}<i class="{{ . }}"></i>{{ end }}
 					</div>
@@ -27,8 +27,7 @@
 					<div class="content text-left">
 						<h3>{{ .title }}</h3>
 						<div class="flex-fill"></div>
-						<div class="overflow-box hidden"><i class="ti-more"></i></div>
-						<div class="content-box">{{ .content | markdownify }}</div>
+						<div class="overflow-box"><i class="ti-more"></i></div>
 						<div class="dialog">{{ .content | markdownify }}</div>
 					</div>
 				</div>

@@ -19,12 +19,14 @@
 			{{ range .values_and_vision_Item}}
 			{{"<!-- Single values Item -->" | safeHTML }}
 			<article class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
-				<div class="values-and-vision-block text-left">
+				<div class="values-and-vision-block text-left content-block">
 					<div class="values-and-vision-icon text-center">
 						<i class="{{ .icon }}"></i>
 					</div>
 					<h3>{{ .title | markdownify }}</h3>
-					<p>{{ .content | markdownify }}</p>
+					<div class="flex-fill"></div>
+					<div class="overflow-box"><i class="ti-more"></i></div>
+					<div class="dialog">{{ .content | markdownify }}</div>
 				</div>
 			</article>
 			{{"<!-- End Single values Item -->" | safeHTML }}
