@@ -267,7 +267,6 @@ jQuery(function ($) {
                 }
             })
             dialogClass = dialogClass.replace("-block", "-dialog")
-            console.log(dialogClass)
             tooltip.dialog({
                 buttons: [],
                 modal: true,
@@ -343,7 +342,6 @@ jQuery(function ($) {
                 dialogContent.dialog("close")
             })
             dialogContent.on("close", function () {
-                console.log("dialog close")
                 $(window).on("click", function () {
                 })
             })
