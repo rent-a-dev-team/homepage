@@ -10,6 +10,10 @@ team:
       social_Icon:
         # - icon : tf-ion-social-facebook
         #   link : "#"
+# TODO: #14 Icon einbauen
+# https://github.com/aalmiray/java-championsidea
+#        - icon: java-champion
+#          link: "https://apexapps.oracle.com/pls/apex/f?p=119297:3::::::"
         - icon: ti-xing
           link: "https://www.xing.com/profile/Sandra_Parsick/cv"
         - icon: ti-linkedin
@@ -34,12 +38,12 @@ team:
         - icon: ti-github
           link: "https://github.com/sanddorn"
         - icon: ti-twitter
-          link: "https://twitter.com/saddorn"
+          link: "https://twitter.com/sanddorn"
 
 
     - image: images/team/markus.jpg
       name: Markus Jenderek
-      designation: Quality Assurance und Testautomatisierung
+      designation: Lifecycle-Testing und Living Documentation
       description: "Schlechte Software macht mich krank"
       social_Icon:
         # - icon : tf-ion-social-facebook
@@ -50,6 +54,5 @@ team:
           link: "https://www.linkedin.com/in/markus-jenderek-a52a8a70/"
         - icon: ti-github
           link: "https://github.com/markusFromGermany"
-        - icon: ti-twitter
-          link: "https://twitter.com/AciOuzo"
-    
+#        - icon: ti-twitter
+#          link: "https://twitter.com/AciOuzo"
