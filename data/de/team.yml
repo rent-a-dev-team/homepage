@@ -8,12 +8,8 @@ team:
       designation: Architektur, Backend Entwicklung und Continuous Delivery
       description: "Machen ist wie wollen, nur krasser"
       social_Icon:
-        # - icon : tf-ion-social-facebook
-        #   link : "#"
-# TODO: #14 Icon einbauen
-# https://github.com/aalmiray/java-championsidea
-#        - icon: java-champion
-#          link: "https://apexapps.oracle.com/pls/apex/f?p=119297:3::::::"
+        - icon: duke-java-champion
+          link: "https://apexapps.oracle.com/pls/apex/f?p=119297:3::::::"
         - icon: ti-xing
           link: "https://www.xing.com/profile/Sandra_Parsick/cv"
         - icon: ti-linkedin

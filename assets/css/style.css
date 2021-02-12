@@ -2351,4 +2351,38 @@ figcaption {
     font-size: 70px;
 }
 
+
+/*.java-champion {*/
+/*    speak: none;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-variant: normal;*/
+/*    text-transform: none;*/
+/*    line-height: 1;*/
+/*    -webkit-font-smoothing: antialiased;*/
+/*    -moz-osx-font-smoothing: grayscale;*/
+/*}*/
+
+@font-face {
+    font-family: duke;
+    src: url('/fonts/duke-font.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+
+[class*=" duke-"], [class^=duke-] {
+    font-family: duke;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.duke-java-champion:before {
+    content: 'z'
+}
 /*# sourceMappingURL=maps/style.css.map */
