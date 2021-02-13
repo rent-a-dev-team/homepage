@@ -1,21 +1,36 @@
-enable : true
-heading : Get In
-headingSpan : Touch
-title : Contact Details
-content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.
-enable_maps : false
-mapLatitude : 51.5223477
-mapLongitude: -0.1622023
-contactDetails :
-  - icon : tf-map-pin
-    info : "Khaja Road, Bayzid, Chittagong, Bangladesh"
-    
-  - icon : tf-ion-ios-telephone-outline
-    info : "Phone: +880-31-000-000"
-    
-  - icon : tf-ion-iphone
-    info : "Fax: +880-31-000-000"
-    
-  - icon : tf-ion-ios-email-outline
-    info : "Email: hello@meghna.com"
-    
+############################## Contact #############################
+contact:
+  enable : false
+  title : Kontaktieren Sie uns
+  subtitle : Warum nur E-Mail?
+  content : |
+    Wir unterhalten kein Büro und keine eigene Infrastruktur um keine unnötigen Aufwände zu generieren, die letztliche Ihnen in Rechnung gestellt würden.
+    Der Verwaltungs-Overhead werden wir so klein wie möglich gestalten.
+    Damit sind wir in der Lage unsere Energie auf *Ihr* Projekt zu lenken.
+
+  # Contact details
+  contact_Details:
+#    - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
+#      info : "Khaja Road, Bayzid, Chittagong, Bangladesh"
+#
+#    - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
+#      info : "Phone: +880-31-000-000"
+#
+#    - icon : ti-printer # themify icon pack : https://themify.me/themify-icons
+#      info : "Fax: +880-31-000-000"
+
+    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
+      info : "Email: info@rent-a-dev-team.de"
+      hidden_info: "info(at)rent-a-dev-team.de"
+      class: contact-send-email
+
+
+  # Contact form
+  contact_form:
+    enable : true
+    form_action : "#" #contact form works with https://formspree.io
+    name : "Your Name"
+    email : "Your Email"
+    subject : "Subject"
+    message : "Message"
+    submit : "Submit"

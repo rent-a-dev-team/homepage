@@ -347,4 +347,12 @@ jQuery(function ($) {
             })
         })
     })
+
+    $(".contact-send-email").on("click", function() {
+        var mailAddress = $(this).find(".hidden-content").text().replace(/\s*\(.+\)\s*/, "@")
+        var address = "mailto:" + mailAddress
+        window.location.href = address;
+    })
+
+    $(".contact-send-email").css('cursor', 'pointer')
 })
