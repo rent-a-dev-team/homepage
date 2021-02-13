@@ -918,7 +918,7 @@ a:hover {
     border-left: 1px solid rgba(236, 239, 241, 0.07);
     border-top: 1px solid rgba(236, 239, 241, 0.07);
     margin-bottom: 40px;
-    box-shadow: 2px 2px 5px rgba(150, 180, 255, 0.7);, 13px 13px 0 rgba(150, 180, 255, 0.7);
+    box-shadow: 2px 2px 5px rgba(150, 180, 255, 0.7);, 13 px 13 px 0 rgba(150, 180, 255, 0.7);
     height: 20em;
     overflow: hidden;
     background: #242930;
@@ -1116,6 +1116,11 @@ a:hover {
     background-color: #292F36;
     padding: 10px;
     height: 7em;
+}
+
+.site-notice-address {
+    background-color: #292F36;
+    box-shadow: 2px 2px 5px #57cbcc, 5px 5px #57cbcc
 }
 
 
@@ -2385,4 +2390,5 @@ figcaption {
 .duke-java-champion:before {
     content: 'z'
 }
+
 /*# sourceMappingURL=maps/style.css.map */

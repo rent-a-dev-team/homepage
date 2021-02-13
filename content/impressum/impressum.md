@@ -1,9 +1,14 @@
 ---
 title: Impressum 
 Member:
-- name: Sandra Parsick 
-  email: sandra@parsick.de
+- name: Sandra Parsick
+  email: mail@sandra-parsick.de
+  address: Münchener Str. 42c
+  city: 41472 Neuss
 - name: Markus Jenderek
+  email: markus@jenderek.de
+  address: Am Stiergraben 2
+  city: 91186 Büchenbach
 - name: Nils Bokermann 
   email: nils.bokermann@bermuda.de 
   address: Am Gottesberg 9b 

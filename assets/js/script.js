@@ -328,10 +328,14 @@ jQuery(function ($) {
                 position: {my: "center", at: "center", of: element}
             })
             trigger.on("click", function (event) {
+                if (openDialog) {
+                    openDialog.dialog("close")
+                }
                 if (dialogContent.dialog("isOpen")) {
                     dialogContent.dialog("close")
                 } else {
                     dialogContent.dialog("open")
+                    openDialog = dialogContent
                     event.stopPropagation()
                     $(window).on("click", function () {
                         dialogContent.dialog("close")
@@ -340,10 +344,6 @@ jQuery(function ($) {
             })
             dialogContent.on("click", function () {
                 dialogContent.dialog("close")
-            })
-            dialogContent.on("close", function () {
-                $(window).on("click", function () {
-                })
             })
         })
     })
