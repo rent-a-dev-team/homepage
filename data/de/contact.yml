@@ -1,6 +1,6 @@
 ############################## Contact #############################
 contact:
-  enable : false
+  enable : true
   title : Kontaktieren Sie uns
   subtitle : Warum nur E-Mail?
   content : |

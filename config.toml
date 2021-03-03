@@ -73,10 +73,10 @@ URL = "plugins/jquery-ui/jquery-ui.min.js"
   URL = "team"
   weight = 5
 
-#  [[menu.main]]
-#  name = "Kontakt"
-#  URL = "contact"
-#  weight = 6
+ [[menu.main]]
+ name = "Kontakt"
+ URL = "contact"
+ weight = 6
 
 
 ############################# Default Parameters ##########################
