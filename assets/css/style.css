@@ -926,7 +926,7 @@ a:hover {
 
 .values-and-vision-dialog {
     background: #242930;
-    box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 5px 5px rgba(150, 180, 255, 0.7)
+    box-shadow: -1px -1px rgba(150, 100, 255, 0.3), 2px 2px 5px rgba(150, 180, 255, 0.7), 5px 5px rgba(150, 180, 255, 0.7)
 }
 
 .values-and-vision-block .values-and-vision-icon {

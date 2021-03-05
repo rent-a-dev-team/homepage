@@ -17,7 +17,6 @@
 
 				{{"<!-- Footer Other Links -->" | safeHTML}}
 				{{ $data := index .Site.Data .Site.Language.Lang }}
-				{{ if $data.siteNotice.siteNotice.enabled }}
 				<div class="footer-link">
 					<ul class="list-inline">
 						{{ range .Site.Params.link_Footer }}
@@ -25,7 +24,6 @@
 						{{ end }}
 					</ul>
 				</div>
-				{{ end }}
 				{{"<!-- copyright -->" | safeHTML}}
 				<div class="copyright text-center">
 					<a href="{{ .Site.BaseURL | absURL }}">

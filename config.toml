@@ -86,7 +86,7 @@ logo = "images/logo.png"
 description = "Responsive Multipurpose Parallax HTML5 Template"
 author = "Nils Bokermann"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+#googleAnalitycsID = "Your ID"
 # post share
 postShare = true
 
