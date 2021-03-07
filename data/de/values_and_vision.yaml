@@ -2,33 +2,33 @@ values_and_vision:
   enable: true
   title: Werte und Visionen
   values_and_vision_Item:
-    - title: Einbindung des Kunden von Anfang an
+    - title: Einbindung des Kunden von Anfang an.
       content: |
         - Wir entwickeln mit dem Kunden zusammen aus seinen Rahmenbedingungen die zukünftige Architektur.
-        - Wir arbeiten mit dem Kunden in Kickoffs-Meetings die wichtigsten Problemstellungen heraus.
-        - Die erarbeiten Erkenntnisse unterziehen wir immer einem regelmäßigen Realtitätscheck.
+        - Wir arbeiten mit dem Kunden in Kickoff-Meetings die wichtigsten Problemstellungen heraus.
+        - Die erarbeiteten Erkenntnisse unterziehen wir immer einem regelmäßigen Realitätscheck.
         - Neben den Reviews hat bei uns der Kunde die Möglichkeit in den Dailys teilzunehmen.
-    - title: Transparenz über unsere Entscheidungen
+    - title: Transparenz über unsere Entscheidungen.
       content: |
-        - Wir dokumentieren jede Entscheidungen mit ihren Pros und Contras orientiert an Ihren Zielen.
-        - Bei Erkenntnisgewinn helfen uns die dokumentieren Entscheidungen bei einem Realtitätscheck.
-        - Wenn der Realtitätscheck ergibt, dass wir Entscheidungen revidieren müssen, dann tuen wir es auch um Ihre Ziele besser zu erreichen.
+        - Wir dokumentieren jede Entscheidung mit ihren Pros und Contras orientiert an Ihren Zielen.
+        - Bei Erkenntnisgewinn helfen uns die dokumentierten Entscheidungen bei einem Realitätscheck.
+        - Wenn der Realitätscheck ergibt, dass wir Entscheidungen revidieren müssen, dann tuen wir es auch um Ihre Ziele besser zu erreichen.
     - title:  Wahl der Technologien nicht nach Hypefaktor, sondern nach Problemadäquatheit und passend zum Kunden.
       content: |
-        - Wir besitzen eine breites Wissenspektrum an Technologien, das wir adäquat für die jeweilige Problemstellung anwenden können.
+        - Wir besitzen ein breites Wissensspektrum an Technologien, das wir adäquat für die jeweilige Problemstellung anwenden können.
         - Wir sind neuen Technologien aufgeschlossen, aber nicht unkritisch.
-        - Wir beherrschen auch Hypetechnik und wenn es gewünscht, setzen wir sie ein, zeigen aber die Folgen auf.
-    - title: Transparenz über unseren Fortschritt
+        - Wir beherrschen auch Hypetechnik und wenn es gewünscht ist, setzen wir sie ein, zeigen aber die Folgen auf.
+    - title: Transparenz über unseren Fortschritt.
       content: |
         - Der Kunde hat bei uns jederzeit einen Einblick in den Entwicklungsstand.
         - Wir stellen in kurzen Kadenzen unseren Fortschritt vor.
-        - Unser Fortschritten wird durch agile Methoden unterstützt.
-    - title: Frühe Integration und Testen
+        - Unser Fortschritt wird durch agile Methoden unterstützt.
+    - title: Frühe Integration und Testen.
       content: |
         - Wir orientieren uns an der Testpyramide für eine effektive Testabdeckung.
         - Die Integration und Testfallerstellung sind risikobasiert.
         - Bei uns wird manuell nur explorativ getestet - alle anderen Tests erfolgen automatisiert.
-    - title: Automatisierung bis zur Produktion
+    - title: Automatisierung bis zur Produktion.
       content: |
         - Wir bringen unseren Werkzeugkasten gleich mit.
         - Der Aufbau der Produktion ist bei uns der Treiber für die Umsetzung der Automatisierung.
