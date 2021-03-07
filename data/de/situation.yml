@@ -5,7 +5,7 @@ situation:
     - title: "Die richtigen Leute für Ihr Vorhaben zu finden ist aufwendig und teuer."
       icon: ti-eye
       content: |
-        * Suche, Interview und Auswahlprozess sind aufwendig
+        * Suche, Interview und Auswahlprozess sind aufwendig.
         * Teamfindungsphase kostet viel Zeit, weil die Leute zusammenwachsen müssen.
 
           Diese Investition ist nicht nachhaltig, da in der Regel das Team nach dem Projekt wieder aufgelöst geht.
@@ -15,7 +15,7 @@ situation:
       content: |
         * Wir kennen und schätzen uns untereinander und verfolgen dasselbe Ziel - qualitative Software auszuliefern.
         * Wir respektieren, dass wir verschieden sind und nutzen diese Diversität für den Projekterfolg.
-    - title: "Fachbereich und Entwicklungsbereich sprechen nicht die selbe Sprache"
+    - title: "Fachbereich und Entwicklungsbereich sprechen nicht die selbe Sprache."
       icon: ti-headphone
       content: |
         * Wir sind überzeugt, dass Methodiken wie DDD und "Specification by Example" zu einer allgemein verständliche (ubiquitär) Sprache zwischen Fachbereich und Technik führt.
