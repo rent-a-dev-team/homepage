@@ -31,8 +31,6 @@ URL = "css/custom.css"
 [[params.plugins.js]]
 URL = "plugins/jquery/jquery.min.js"
 [[params.plugins.js]]
-URL = "plugins/bootstrap/bootstrap.min.js"
-[[params.plugins.js]]
 URL = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 URL = "plugins/shuffle/shuffle.min.js"
@@ -40,6 +38,8 @@ URL = "plugins/shuffle/shuffle.min.js"
 URL = "plugins/wow/wow.min.js"
 [[params.plugins.js]]
 URL = "plugins/jquery-ui/jquery-ui.min.js"
+[[params.plugins.js]]
+URL = "plugins/bootstrap/bootstrap.min.js"
 
 [taxonomies]
   author = "author"

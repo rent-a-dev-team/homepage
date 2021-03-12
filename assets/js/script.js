@@ -279,7 +279,7 @@ jQuery(function ($) {
                 autoOpen: false,
                 show: {
                     effect: "blind",
-                    duration: 1000
+                    duration: 500
                 },
                 position: {my: "center", at: "center", of: element}
             })
@@ -323,7 +323,7 @@ jQuery(function ($) {
                 autoOpen: false,
                 show: {
                     effect: "blind",
-                    duration: 1000
+                    duration: 500
                 },
                 position: {my: "center", at: "center", of: element}
             })

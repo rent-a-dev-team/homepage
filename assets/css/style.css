@@ -2391,4 +2391,8 @@ figcaption {
     content: 'z'
 }
 
+[tabindex="-1"]:focus {
+    outline: 0 !important
+}
+
 /*# sourceMappingURL=maps/style.css.map */
