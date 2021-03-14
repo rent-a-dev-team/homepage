@@ -1,7 +1,6 @@
 baseURL = "https://www.rent-a-dev-team.de/"
 languageCode = "de_DE"
 title = "Rent a Development Team"
-# theme = "meghna-hugo"
 # post pagination
 paginate = "6"
 # post excerpt
@@ -83,8 +82,8 @@ URL = "plugins/bootstrap/bootstrap.min.js"
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "Responsive Multipurpose Parallax HTML5 Template"
-author = "Nils Bokermann"
+description = "Rent a Development Team. Transparenz, Qualität, Automatisierung."
+author = "Nils Bokermann, Sandra Parsick, Markus Jenderek"
 # Google Analitycs
 #googleAnalitycsID = "Your ID"
 # post share
