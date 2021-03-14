@@ -1,5 +1,6 @@
 ---
-title: Impressum 
+title: Impressum
+Kind: Page
 Member:
 - name: Sandra Parsick
   email: mail@sandra-parsick.de
@@ -9,13 +10,12 @@ Member:
   email: markus@jenderek.de
   address: Am Stiergraben 2
   city: 91186 Büchenbach
-- name: Nils Bokermann 
-  email: nils.bokermann@bermuda.de 
-  address: Am Gottesberg 9b 
-  city: 33619 Bielefeld 
-Prefix: | 
+- name: Nils Bokermann
+  email: nils.bokermann@bermuda.de
+  address: Am Gottesberg 9b
+  city: 33619 Bielefeld
+Prefix: |
   Diese Webseite ist eine gemeinschaftliche Werbemaßnahme von
-
 ---
 
 ## Haftung für Inhalte

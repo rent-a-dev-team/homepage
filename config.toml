@@ -41,9 +41,9 @@ URL = "plugins/jquery-ui/jquery-ui.min.js"
 URL = "plugins/bootstrap/bootstrap.min.js"
 
 [taxonomies]
-  author = "author"
-  category = "categories"
-  tag = "tags"
+#  author = "author"
+#  category = "categories"
+#  tag = "tags"
 ############################# Navigation ##################################
 [menu]
 
@@ -120,7 +120,7 @@ preloader = "images/preload.jpg"
 #link = "#"
 
 [[params.link_Footer]]
-link = "impressum/impressum"
+link = "impressum/"
 text = "Impressum"
 
 ################################# language ################################
